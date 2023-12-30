@@ -4,4 +4,4 @@
   pass_filenames: false
   always_run: true
   language: system
-  entry: update-modified.sh
+  entry: ./update-modified.sh
