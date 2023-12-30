@@ -4,6 +4,7 @@ version = "0.1.0"
 description = "Pre-commit hooks for Zola"
 authors = ["Richtman, Ariel <10679234+arichtman@users.noreply.github.com>"]
 license = "GPL-3.0"
+include = ["update-modified.sh"]
 
 [tool.poetry.dependencies]
 python = "^3.11"
@@ -11,8 +12,8 @@ python = "^3.11"
 [tool.poetry.group.dev.dependencies]
 pre-commit = "^3.6.0"
 
-[tool.poetry.scripts]
-update-modified = "update-modified.sh"
+# [tool.poetry.scripts]
+# update-modified = "update-modified.sh"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
