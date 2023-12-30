@@ -3,5 +3,5 @@
   description: "https://gist.github.com/welpo/6594765f5640982cb5886c9e9459ef5b"
   pass_filenames: false
   always_run: true
-  language: system
-  entry: ./update-modified.sh
+  # language: system
+  entry: update-modified.sh
