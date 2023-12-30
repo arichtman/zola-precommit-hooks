@@ -16,5 +16,4 @@ jobs:
       run: nix develop
     - name: Test hook
       run: |
-        nix develop
-        pre-commit try-repo . --all-files
+        nix develop --command pre-commit try-repo . --all-files
