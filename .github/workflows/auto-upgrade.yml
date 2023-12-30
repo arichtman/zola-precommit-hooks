@@ -23,9 +23,11 @@ jobs:
         nix develop --command poetry update
     - uses: peter-evans/create-pull-request@v5.0.2
       with:
-        branch: auto-updates
         title: 'chore(deps): Update development packages'
         commit-message: 'chore(deps): Update development packages'
         body: Update development packages
         labels: dependencies
+        branch: auto-updates
         delete-branch: true
+        committer: "Richtman, Ariel <10679234+arichtman@users.noreply.github.com>"
+        author: "Richtman, Ariel <10679234+arichtman@users.noreply.github.com>"
